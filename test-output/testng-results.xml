@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-21T13:06:09Z" name="Default suite" finished-at="2022-05-21T13:06:18Z" duration-ms="8628">
+    <groups>
+    </groups>
+    <test started-at="2022-05-21T13:06:09Z" name="Default test" finished-at="2022-05-21T13:06:18Z" duration-ms="8628">
+      <class name="IBM_May.RestAssured1.datafromjsonfile">
+        <test-method signature="testcase1()[pri:0, instance:IBM_May.RestAssured1.datafromjsonfile@5b7a8434]" started-at="2022-05-21T13:06:09Z" name="testcase1" description="Perform the POST Operation with escape char, perform assertions for success code" finished-at="2022-05-21T13:06:14Z" duration-ms="4559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:0, instance:IBM_May.RestAssured1.datafromjsonfile@5b7a8434]" started-at="2022-05-21T13:06:14Z" name="testcase2" description="Perform the Get Operation, perform assertions for success code" finished-at="2022-05-21T13:06:14Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase3()[pri:0, instance:IBM_May.RestAssured1.datafromjsonfile@5b7a8434]" started-at="2022-05-21T13:06:14Z" name="testcase3" description="Perform the Get Operation, perform assertions for 404 code" finished-at="2022-05-21T13:06:14Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method signature="testcase4()[pri:0, instance:IBM_May.RestAssured1.datafromjsonfile@5b7a8434]" started-at="2022-05-21T13:06:14Z" name="testcase4" description="Perform the POST Operation with JSON File, perform assertions for success code" finished-at="2022-05-21T13:06:16Z" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method signature="testcase5()[pri:0, instance:IBM_May.RestAssured1.datafromjsonfile@5b7a8434]" started-at="2022-05-21T13:06:16Z" name="testcase5" description="Post method with JSON File, perform assertions for 404 code" finished-at="2022-05-21T13:06:18Z" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method signature="testcase6()[pri:0, instance:IBM_May.RestAssured1.datafromjsonfile@5b7a8434]" started-at="2022-05-21T13:06:18Z" name="testcase6" description="Perform the PUT Operation with escape characters, perform assertions for success code" finished-at="2022-05-21T13:06:18Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+        <test-method signature="testcase7()[pri:0, instance:IBM_May.RestAssured1.datafromjsonfile@5b7a8434]" started-at="2022-05-21T13:06:18Z" name="testcase7" description="Perform the PUT Operation with JSON object, perform assertions for 404 code" finished-at="2022-05-21T13:06:18Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase7 -->
+        <test-method signature="testcase8()[pri:0, instance:IBM_May.RestAssured1.datafromjsonfile@5b7a8434]" started-at="2022-05-21T13:06:18Z" name="testcase8" description="Perform the Delete Operation , perform assertions for 404 code" finished-at="2022-05-21T13:06:18Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase8 -->
+      </class> <!-- IBM_May.RestAssured1.datafromjsonfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
